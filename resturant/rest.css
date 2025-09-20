@@ -1,0 +1,30 @@
+/* Contact form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ff9800;
+}

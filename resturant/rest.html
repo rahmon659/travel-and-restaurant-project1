@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resturant</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (for footer) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="rest.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Delicious Bites</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="bg-dark text-white text-center p-5" style="background: url('download (1).jpg') center/cover no-repeat; height: 80vh;">
+  <div class="d-flex flex-column justify-content-center align-items-center h-100">
+    <h1 class="display-3">Welcome to Delicious Bites</h1>
+    <a href="#menu" class="btn btn-primary btn-lg mt-3">See Our Menu</a>
+  </div>
+</section>
+<section id="menu" class="container my-5">
+  <h2 class="text-center mb-4">Our Menu</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="pizza.jpg" class="card-img-top" alt="Pizza">
+        <div class="card-body">
+            <h5 class="card-title">Rahmon Pizza</h5>
+          <p class="card-text">Classic pizza with fresh tomatoes, Family sized pizza with chichen pepperroni, Medium sized pizza with diffrenet varities .</p>
+          <p class="fw-bold">$20</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="premium_photo-1684952849219-5a0d76012ed2.avif" class="card-img-top" alt="Drinks">
+        <div class="card-body">
+          <h5 class="card-title">Fruit Juice</h5>
+          <p class="card-text">Apple Juice, Orange Juice, Mnago Juice and Strawbery Juice and Different other Flavour.</p>
+          <p class="fw-bold">$10</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="premium_photo-1663133730195-2ce4986a96b9.avif" class="card-img-top" alt="Cake">
+        <div class="card-body">
+          <h5 class="card-title">Chocolate Cake</h5>
+          <p class="card-text">Rich chocolate cake topprd with cream.</p>
+          <p class="fw-bold">$14</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="download.jpg" class="img-fluid rounded" alt="Restaurant">
+    </div>
+    <div class="col-md-6">
+      <h2>About Us</h2>
+      <p>At Delicious Bites, we serve freshly made meals crafted with love. Our chefs are passionate about creating unforgettable dining experiences for you.</p>
+    </div>
+  </div>
+</section>
+<section id="contact us">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+</section>
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Delicious Bites | Follow us: 
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-twitter"></i>
+  </p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
